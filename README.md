@@ -130,9 +130,14 @@ After downloading CSV files for each table, they were added to the database in S
             -	Trends over time for total sales by comparing sales before and after campaigns started. 
             -	Average number of times of visits by household per week.
         -	Add a text box as a postscript to define the KPIs abbreviations.
+
+
 ![](https://github.com/javadho/campaigns_analysis/blob/main/Dashboard.png)
+
+
     -	**Report:** In this report, all 30 campaigns are ranked based on KPIs, and then the total ranking was obtained using the AHP method by AHP Decision Maker visualization in Power BI. The obtained AHP table is then exported as CSV, and then the total ranking is obtained by ordering rows in Excel, and then it is loaded into the data in Power BI. Also, conditional formatting is used to change the color of the background to red, yellow, and green colors from worst to best. 
 
+![](https://github.com/javadho/campaigns_analysis/blob/main/Report.png)
 
 **NOTE: KPIs in the report table are obtained from transactions for households that used the campaign's offers.**
 
