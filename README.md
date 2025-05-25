@@ -97,20 +97,20 @@ After downloading CSV files for each table, they were added to the database in S
 -	Check the times of visit for each household per week
 
 ## EDA (Python)
--	Libraries: sqlalchemy, pandas, numpy, seaborn, and matplotlib.
+-	**Libraries:** sqlalchemy, pandas, numpy, seaborn, and matplotlib.
 -	Check num of rows and columns, data types, null values, summary, number of unique values, central tendencies of columns for each table.
 -	Check data distribution.
 -	Check outliers.
 -	Change the names of campaigns based on their order by time and upload the adjusted campaign table to SQL Server.
 
 ## Visualizations (Power BI)
--	Power Query: Join the transaction_data and campaigns tables to see transactions that happened during campaigns.
+-	**Power Query:** Join the transaction_data and campaigns tables to see transactions that happened during campaigns.
 -	Creating a data model with a star schema.
 -	Change data properties wherever needed.
 -	Create hierarchy for department, commodity_desc, sub_commodity_desc
 -	Add campaigns_start column into transaction_data table to show if the transaction occurred before or after the campaigns have started. 
 -	Add a date column to the transaction_data and transactions_campaigns table based on the day column. 
--	DAX:
+-	**DAX:**
     -	Comparing KPIs before and after campaigns dashboard:
         -	total_baskets, total_households, total_sales, total_units, single_quantity_basket_total
         -	sales_per_day_total, sales_per_household_total, sales_per_basket_total, units_per_basket_total, %single_quantity_basket_total, household_daily, avg_visits_per_household
@@ -121,7 +121,7 @@ After downloading CSV files for each table, they were added to the database in S
     -	KPIs comparison table:
         -	SPD_total_display, SPD_total_color, SPH_total_display, SPH_total_color, SPB_total_display, SPB_total_color, UPB_total_display, UPB_total_color, %SQB_total_display, %SQB_total_color, households_display, households_color, Rank
         -	CampaignGroup, Metrics
--	Visualizations:
+-	**Visualizations:**
     -	Dashboard: In this interactive dashboard, and user can see total sales, weekly times of visit by household, and top products before and after the campaign started by changing the value of different slicers. Also, KPIs comparison table shows the overview for the values of KPIs before and after campaign started, which if a KPI got improved, it shows with green, otherwise it shows red. The top products tables can also be seen by changing the given KPI from the KPIs slicers.
         -	Slicer: store name, department, gender, and age.
         -	Table: Create CampaignGroup table using DAX in KPIs comparison table and the Metrics variable. 
@@ -133,5 +133,5 @@ After downloading CSV files for each table, they were added to the database in S
     -	Report: In this report, all 30 campaigns are ranked based on KPIs, and then the total ranking was obtained using the AHP method by AHP Decision Maker visualization in Power BI. The obtained AHP table is then exported as CSV, and then the total ranking is obtained by ordering rows in Excel, and then it is loaded into the data in Power BI. Also, conditional formatting is used to change the color of the background to red, yellow, and green colors from worst to best. 
 
 
-NOTE: KPIs in this table are obtained from transactions for households that used the campaign's offers.
+**NOTE: KPIs in the report table are obtained from transactions for households that used the campaign's offers.**
 
