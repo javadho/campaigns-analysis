@@ -122,7 +122,7 @@ After downloading CSV files for each table, they were added to the database in S
         -	SPD_total_display, SPD_total_color, SPH_total_display, SPH_total_color, SPB_total_display, SPB_total_color, UPB_total_display, UPB_total_color, %SQB_total_display, %SQB_total_color, households_display, households_color, Rank
         -	CampaignGroup, Metrics
 -	**Visualizations:**
-    -	**Dashboard:** In this interactive dashboard, and user can see total sales, weekly times of visit by household, and top products before and after the campaign started by changing the value of different slicers. Also, KPIs comparison table shows the overview for the values of KPIs before and after campaign started, which if a KPI got improved, it shows with green, otherwise it shows red. The top products tables can also be seen by changing the given KPI from the KPIs slicers.
+    -	**Dashboard:** In this interactive dashboard, users can see total sales, weekly times of visit by household, and top products before and after the campaign started by changing the value of different slicers. Also, KPIs comparison table shows the overview for the values of KPIs before and after campaign started, which if a KPI got improved, it shows with green, otherwise it shows red. The top products tables can also be seen by changing the given KPI from the KPIs slicers.
         -	Slicer: store name, department, gender, and age.
         -	Table: Create CampaignGroup table using DAX in KPIs comparison table and the Metrics variable. 
         -	Clustered Bar Chart: demonstrates top products by choosing a KPI from slicers with logarithmic scale.
