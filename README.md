@@ -22,3 +22,28 @@ Transaction data shows all products purchased by households within the dataset. 
 | `retail_disc`        | Discount applied due to retailer’s loyalty card programme          |
 | `trans_time`         | Time of day when transaction occurred                              |
 | `week_no`            | Week of the transaction. Ranges from 1 to 102                      |
+
+### product
+This table shows the products purchased by households with their manufacturer, and their categories.
+| Variable              | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| `PRODUCT_ID`           | Number that uniquely identifies each product                                |
+| `DEPARTMENT`           | Groups similar products together                                            |
+| `COMMODITY_DESC`       | Groups similar products together at a lower level                          |
+| `SUB_COMMODITY_DESC`   | Groups similar products together at the lowest level                       |
+| `MANUFACTURER`         | Code that links products with same manufacturer together                   |
+| `BRAND`                | Indicates Private or National label brand                                   |
+| `CURR_SIZE_OF_PRODUCT` | Indicates package size (not available for all products)                    |
+
+### hh_demographic
+This table shows demographic information for a portion of households. The fields have been given generic names (classification_1, classification_2, etc.)
+| Variable             | Description                                                                                           |
+|----------------------|-------------------------------------------------------------------------------------------------------|
+| `HOUSEHOLD_KEY`      | Uniquely identifies each household                                                                     |
+| `classification_1`   | Household level demographic segmentation. Ordered values: Group1 through Group6                        |
+| `classification_2`   | Household level demographic segmentation. Possible values: X, Y, Z                                     |
+| `classification_3`   | Household level demographic segmentation. Ordered values: Level1 through Level12                       |
+| `classification_4`   | Household level demographic segmentation. Ordered values: 1 through 5+                                 |
+| `classification_5`   | Household level demographic segmentation. Ordered values: Group1 through Group6                        |
+| `HOMEOWNER_DESC`     |                                                                                                        |
+| `KID_CATEGORY_DESC`  |                                                                                                        |
