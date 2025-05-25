@@ -111,13 +111,13 @@ After downloading CSV files for each table, they were added to the database in S
 -	Add campaigns_start column into transaction_data table to show if the transaction occurred before or after the campaigns have started. 
 -	Add date column into transaction_data and transactions_campaigns table based on day column. 
 -	DAX:
-  -	Comparing KPIs before and after campaigns dashboard:
-    -	total_baskets, total_households, total_sales, total_units, single_quantity_basket_total
-    -	sales_per_day_total, sales_per_household_total, sales_per_basket_total, units_per_basket_total, %single_quantity_basket_total, household_daily, avg_visits_per_household
-  -	Campaigns ranking report:
-    -	total_baskets_campaigns, total_sales_campaigns, single_quantity_basket_campaigns
-    -	sales_per_day_campaigns, sales_per_household_campaigns, sales_per_basket_campaigns, units_per_basket_campaigns, %single_quantity_basket_campaigns, household_daily_campaigns
--	rank_SPD, rank_SPH, rank_SPB, rank_UPB, rank_%SQB, rank_HPD, rank_total_AHP
+    -	Comparing KPIs before and after campaigns dashboard:
+        -	total_baskets, total_households, total_sales, total_units, single_quantity_basket_total
+        -	sales_per_day_total, sales_per_household_total, sales_per_basket_total, units_per_basket_total, %single_quantity_basket_total, household_daily, avg_visits_per_household
+    -	Campaigns ranking report:
+        -	total_baskets_campaigns, total_sales_campaigns, single_quantity_basket_campaigns
+        -	sales_per_day_campaigns, sales_per_household_campaigns, sales_per_basket_campaigns, units_per_basket_campaigns, %single_quantity_basket_campaigns, household_daily_campaigns
+        -	rank_SPD, rank_SPH, rank_SPB, rank_UPB, rank_%SQB, rank_HPD, rank_total_AHP
 -	KPIs comparison table:
 -	SPD_total_display, SPD_total_color, SPH_total_display, SPH_total_color, SPB_total_display, SPB_total_color, UPB_total_display, UPB_total_color, %SQB_total_display, %SQB_total_color, households_display, households_color, Rank
 -	CampaignGroup, Metrics
