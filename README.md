@@ -31,7 +31,7 @@ This table shows the products purchased by households with their manufacturer, a
 | `DEPARTMENT`           | Groups similar products together                                            |
 | `COMMODITY_DESC`       | Groups similar products together at a lower level                          |
 | `SUB_COMMODITY_DESC`   | Groups similar products together at the lowest level                       |
-| `MANUFACTURER`         | Code that links products with same manufacturer together                   |
+| `MANUFACTURER`         | Code that links products with the same manufacturer together                   |
 | `BRAND`                | Indicates Private or National label brand                                   |
 | `CURR_SIZE_OF_PRODUCT` | Indicates package size (not available for all products)                    |
 
@@ -47,3 +47,18 @@ This table shows demographic information for a portion of households. The fields
 | `classification_5`   | Household level demographic segmentation. Ordered values: Group1 through Group6                        |
 | `HOMEOWNER_DESC`     |                                                                                                        |
 | `KID_CATEGORY_DESC`  |                                                                                                        |
+
+### campaigns
+The campaigns table is the merge of the campaign_table and campaign_desc tables. Campaign_table lists the campaigns received by each household in the dataset. Each household may have received a different set of campaigns. The Campaign_desc table gives the length of time for which a campaign runs.
+| Variable        | Description                                                 |
+|------------------|-------------------------------------------------------------|
+| `HOUSEHOLD_KEY` | Uniquely identifies each household                           |
+| `CAMPAIGN`      | Uniquely identifies each campaign. Ranges from 1 to 30       |
+| `DESCRIPTION`   | Type of campaign (TypeA, TypeB, or TypeC)                    |
+
+| Variable     | Description                                          |
+|--------------|------------------------------------------------------|
+| `CAMPAIGN`   | Uniquely identifies each campaign. Ranges 1–30       |
+| `DESCRIPTION`| Type of campaign (TypeA, TypeB, or TypeC)            |
+| `START_DAY`  | Start date of campaign                               |
+| `END_DAY`    | End date of campaign                                 |
