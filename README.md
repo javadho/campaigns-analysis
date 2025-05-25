@@ -83,3 +83,15 @@ The campaigns table is the merge of the campaign_table and campaign_desc tables.
 After downloading CSV files for each table, they were added to the database in SQL Server to be cleaned and transformed. Then, to do Exploratory Data Analysis (EDA) in Python, a Jupyter notebook was connected to SQL Server using the sqlalchemy library. Then, for getting insights, data was imported to Power BI by loading it from the database in SQL Server.
 
 ## Data Cleaning and Transformation (SQL)
+-	Remove unnecessary columns
+-	Changing data types
+-	Check missing values
+-	Check duplicates
+-	Merge tables
+-	Create a new table (campaign_table) by joining campaign tables (campaign_table and campaign_desc) as denormalization because query performance will be improved by reducing joins in frequently accessed reports or dashboards, and also because these two tables store similar data, merging them into a single table simplifies queries and maintenance.
+-	Check data values, which takes a lot of time by checking each column in the tables
+-	Changing the name of columns and their values in the hh_demographic table
+-	Add duration, date, new_customer, and store name columns
+-	Create transactions_campaigns table to see households that used campaign offer for purchasing
+-	Create KPIs
+-	Check the times of visit for each household per week
