@@ -1,5 +1,10 @@
 # campaigns_analysis
 **Objective:** Compare KPIs before and after starting campaigns and the most successful campaigns. 
+
+
+**Tools used:** SQL (SQL Server Management Studio 2.0), Python (Jupyter Notebook), Power BI, Excel
+
+
 ## Project Overview
 Running campaigns can be a key strategy for stakeholders to achieve their goals. Effective campaigns have the potential to attract more customers, and when executed properly, they can boost a company’s profitability and efficiency. To evaluate campaign performance, various Key Performance Indicators (KPIs) can be applied based on the company’s objectives. In this project, six KPIs are analyzed using nearly two years of transaction data from a retail business with 2,500 households. These KPIs are then used to rank the campaigns and determine which one was the most successful.
 
@@ -63,12 +68,6 @@ The campaigns table is the merge of the campaign_table and campaign_desc tables.
 | `START_DAY`  | Start date of campaign                               |
 | `END_DAY`    | End date of campaign                                 |
 
-| Variable     | Description                                          |
-|--------------|------------------------------------------------------|
-| `CAMPAIGN`   | Uniquely identifies each campaign. Ranges 1–30       |
-| `DESCRIPTION`| Type of campaign (TypeA, TypeB, or TypeC)            |
-| `START_DAY`  | Start date of campaign                               |
-| `END_DAY`    | End date of campaign                                 |
 
 ## Key Performance Indicators
 | KPI                               | Definition                                                                 |
@@ -79,3 +78,8 @@ The campaigns table is the merge of the campaign_table and campaign_desc tables.
 | Units Per Basket (UPB)            | The average number of product units included in a single household basket.|
 | Percentage of Single Quantity per Basket (%SQB)   | The percentage of baskets that contain only one unit of a single product. |
 | Households Per Day (HPD)          | The number of distinct households making purchases on a given day.        |
+
+## ETL Process Overview
+After downloading CSV files for each table, they were added to the database in SQL Server to be cleaned and transformed. Then, to do Exploratory Data Analysis (EDA) in Python, a Jupyter notebook was connected to SQL Server using the sqlalchemy library. Then, for getting insights, data was imported to Power BI by loading it from the database in SQL Server.
+
+## Data Cleaning and Transformation (SQL)
