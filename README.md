@@ -62,3 +62,20 @@ The campaigns table is the merge of the campaign_table and campaign_desc tables.
 | `DESCRIPTION`| Type of campaign (TypeA, TypeB, or TypeC)            |
 | `START_DAY`  | Start date of campaign                               |
 | `END_DAY`    | End date of campaign                                 |
+
+| Variable     | Description                                          |
+|--------------|------------------------------------------------------|
+| `CAMPAIGN`   | Uniquely identifies each campaign. Ranges 1–30       |
+| `DESCRIPTION`| Type of campaign (TypeA, TypeB, or TypeC)            |
+| `START_DAY`  | Start date of campaign                               |
+| `END_DAY`    | End date of campaign                                 |
+
+## Key Performance Indicators
+| KPI                               | Definition                                                                 |
+|-----------------------------------|---------------------------------------------------------------------------|
+| Sales Per Day (SPD)               | The total of sales in a single day.                                       |
+| Sales Per Basket (SPB)            | The average sales amount per household transaction or basket.             |
+| Sales Per Household (SPH)         | The average sales amount per household.                                   |
+| Units Per Basket (UPB)            | The average number of product units included in a single household basket.|
+| Percentage of Single Quantity per Basket (%SQB)   | The percentage of baskets that contain only one unit of a single product. |
+| Households Per Day (HPD)          | The number of distinct households making purchases on a given day.        |
