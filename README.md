@@ -122,7 +122,7 @@ After downloading CSV files for each table, they were added to the database in S
         -	SPD_total_display, SPD_total_color, SPH_total_display, SPH_total_color, SPB_total_display, SPB_total_color, UPB_total_display, UPB_total_color, %SQB_total_display, %SQB_total_color, households_display, households_color, Rank
         -	CampaignGroup, Metrics
 -	**Visualizations:**
-    -	Dashboard: In this interactive dashboard, and user can see total sales, weekly times of visit by household, and top products before and after the campaign started by changing the value of different slicers. Also, KPIs comparison table shows the overview for the values of KPIs before and after campaign started, which if a KPI got improved, it shows with green, otherwise it shows red. The top products tables can also be seen by changing the given KPI from the KPIs slicers.
+    -	**Dashboard:** In this interactive dashboard, and user can see total sales, weekly times of visit by household, and top products before and after the campaign started by changing the value of different slicers. Also, KPIs comparison table shows the overview for the values of KPIs before and after campaign started, which if a KPI got improved, it shows with green, otherwise it shows red. The top products tables can also be seen by changing the given KPI from the KPIs slicers.
         -	Slicer: store name, department, gender, and age.
         -	Table: Create CampaignGroup table using DAX in KPIs comparison table and the Metrics variable. 
         -	Clustered Bar Chart: demonstrates top products by choosing a KPI from slicers with logarithmic scale.
@@ -130,7 +130,8 @@ After downloading CSV files for each table, they were added to the database in S
             -	Trends over time for total sales by comparing sales before and after campaigns started. 
             -	Average number of times of visits by household per week.
         -	Add a text box as a postscript to define the KPIs abbreviations.
-    -	Report: In this report, all 30 campaigns are ranked based on KPIs, and then the total ranking was obtained using the AHP method by AHP Decision Maker visualization in Power BI. The obtained AHP table is then exported as CSV, and then the total ranking is obtained by ordering rows in Excel, and then it is loaded into the data in Power BI. Also, conditional formatting is used to change the color of the background to red, yellow, and green colors from worst to best. 
+![](https://github.com/javadho/campaigns_analysis/blob/main/Dashboard.png)
+    -	**Report:** In this report, all 30 campaigns are ranked based on KPIs, and then the total ranking was obtained using the AHP method by AHP Decision Maker visualization in Power BI. The obtained AHP table is then exported as CSV, and then the total ranking is obtained by ordering rows in Excel, and then it is loaded into the data in Power BI. Also, conditional formatting is used to change the color of the background to red, yellow, and green colors from worst to best. 
 
 
 **NOTE: KPIs in the report table are obtained from transactions for households that used the campaign's offers.**
