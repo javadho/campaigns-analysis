@@ -20,7 +20,7 @@ Transaction data shows all products purchased by households within the dataset. 
 | `day`                | Day when transaction occurred                                      |
 | `product_id`         | Uniquely identifies each product                                   |
 | `quantity`           | Number of the products purchased during the trip                   |
-| `sales_value`        | Amount of dollars retailer receives from the sale                  |
+| `sales_value`        | Amount of dollars the retailer receives from the sale                  |
 | `store_id`           | Identifies unique stores                                           |
 | `coupon_match_disc`  | Discount applied due to retailer’s match                           |
 | `coupon_disc`        | Discount applied due to manufacturer coupon                        |
