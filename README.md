@@ -109,7 +109,7 @@ After downloading CSV files for each table, they were added to the database in S
 -	Change data properties wherever needed.
 -	Create hierarchy for department, commodity_desc, sub_commodity_desc
 -	Add campaigns_start column into transaction_data table to show if the transaction occurred before or after the campaigns have started. 
--	Add a date column to the transaction_data and transactions_campaigns table based on the day column. 
+-	Add a date column to the transaction_data and transactions_campaigns tables based on the day column. 
 -	**DAX:**
     -	Comparing KPIs before and after campaigns dashboard:
         -	total_baskets, total_households, total_sales, total_units, single_quantity_basket_total
@@ -122,14 +122,14 @@ After downloading CSV files for each table, they were added to the database in S
         -	SPD_total_display, SPD_total_color, SPH_total_display, SPH_total_color, SPB_total_display, SPB_total_color, UPB_total_display, UPB_total_color, %SQB_total_display, %SQB_total_color, households_display, households_color, Rank
         -	CampaignGroup, Metrics
 -	**Visualizations:**
-    -	**Dashboard:** In this interactive dashboard, users can see total sales, weekly times of visit by household, and top products before and after the campaign started by changing the value of different slicers. Also, KPIs comparison table shows the overview for the values of KPIs before and after campaign started, which if a KPI got improved, it shows with green, otherwise it shows red. The top products tables can also be seen by changing the given KPI from the KPIs slicers.
-        -	Slicer: store name, department, gender, and age.
-        -	Table: Create CampaignGroup table using DAX in KPIs comparison table and the Metrics variable. 
-        -	Clustered Bar Chart: demonstrates top products by choosing a KPI from slicers with logarithmic scale.
-        -	Line Chart:
+    -	**Dashboard:** In this interactive dashboard, users can see total sales, weekly times of visit by household, and top products before and after the campaign started by changing the values of different slicers. Also, KPIs comparison table shows the overview of the values of KPIs before and after campaign started, which if a KPI got improved, it is displayed in green, otherwise it is displayed in red. The top products tables can also be seen by changing the given KPI from the KPIs slicers.
+        -	**Slicer**: store name, department, gender, and age.
+        -	**Table**: Create CampaignGroup table using DAX in KPIs comparison table and the Metrics variable. 
+        -	**Clustered Bar Chart**: demonstrates top products by choosing a KPI from slicers with logarithmic scale.
+        -	**Line Chart**:
             -	Trends over time for total sales by comparing sales before and after campaigns started. 
             -	Average number of times of visits by household per week.
-        -	Add a text box as a postscript to define the KPIs abbreviations.
+        -	Add a **text box** as a postscript to define the KPIs abbreviations.
 
 
         ![](https://github.com/javadho/campaigns_analysis/blob/main/Dashboard.png)
