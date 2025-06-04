@@ -12,7 +12,7 @@
     - [product](#product)
     - [hh_demographic](#hh_demographic)
     - [campaigns](#campaigns)
-- [Key Performance Indicators ((KPIs))](#key_performance_indicators)
+- [Key Performance Indicators ((KPIs))](#key_performance_indicators_(kpis))
 - [ETL Process Overview](#etl_process_overview)
 - [Data Cleaning and Transformation (SQL)](#data_cleaning_and_transformation_(sql))
 - [EDA (Python)](#eda_(python))
