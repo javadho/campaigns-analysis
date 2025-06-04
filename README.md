@@ -25,7 +25,7 @@ Running campaigns can be a key strategy for stakeholders to achieve their goals.
 The datasets are obtained from [the Dunnhumby website (the complete Journey)](https://www.dunnhumby.com/source-files/), which is the first data science customer platform in the world. In this project, 4 tables are used, which are described as follows.
 
 ### transaction_data
-[Transaction data](https://github.com/javadho/campaigns-analysis/blob/main/datasets/transaction_data.csv) shows all products purchased by households within the dataset. Each row is essentially the same line that would be found on a store receipt. It is worth mentioning that sales_value in this table is the amount of dollars received by the retailer on the sale of the specific product, not the actual price paid by the customer. Below is the description of all variables in this table.
+[The transaction data](https://github.com/javadho/campaigns-analysis/blob/main/datasets/transaction_data.csv) shows all products purchased by households within the dataset. Each row is essentially the same line that would be found on a store receipt. It is worth mentioning that sales_value in this table is the amount of dollars received by the retailer on the sale of the specific product, not the actual price paid by the customer. Below is the description of all variables in this table.
 | Variable             | Description                                                        |
 |----------------------|--------------------------------------------------------------------|
 | `household_key`      | Uniquely identifies each household                                 |
@@ -42,7 +42,7 @@ The datasets are obtained from [the Dunnhumby website (the complete Journey)](ht
 | `week_no`            | Week of the transaction. Ranges from 1 to 102                      |
 
 ### product
-This table shows the products purchased by households with their manufacturer, and their categories.
+[The product](https://github.com/javadho/campaigns-analysis/blob/main/datasets/product.csv) table shows the products purchased by households with their manufacturer and their categories.
 | Variable              | Description                                                                 |
 |------------------------|-----------------------------------------------------------------------------|
 | `PRODUCT_ID`           | Number that uniquely identifies each product                                |
@@ -54,7 +54,7 @@ This table shows the products purchased by households with their manufacturer, a
 | `CURR_SIZE_OF_PRODUCT` | Indicates package size (not available for all products)                    |
 
 ### hh_demographic
-This table shows demographic information for a portion of households. The fields have been given generic names (classification_1, classification_2, etc.)
+[The households demographic](https://github.com/javadho/campaigns-analysis/blob/main/datasets/hh_demographic.csv) table shows demographic information for a portion of households. The fields have been given generic names (classification_1, classification_2, etc.)
 | Variable             | Description                                                                                           |
 |----------------------|-------------------------------------------------------------------------------------------------------|
 | `HOUSEHOLD_KEY`      | Uniquely identifies each household                                                                     |
@@ -67,7 +67,7 @@ This table shows demographic information for a portion of households. The fields
 | `KID_CATEGORY_DESC`  |                                                                                                        |
 
 ### campaigns
-The campaigns table is the merge of the campaign_table and campaign_desc tables. Campaign_table lists the campaigns received by each household in the dataset. Each household may have received a different set of campaigns. The Campaign_desc table gives the length of time for which a campaign runs.
+The campaigns table is the merge of [the campaign](https://github.com/javadho/campaigns-analysis/blob/main/datasets/campaign_table.csv) and [the campaign description](https://github.com/javadho/campaigns-analysis/blob/main/datasets/campaign_desc.csv) tables. The campaign table lists the campaigns received by each household in the dataset. Each household may have received a different set of campaigns. The campaign descrption table gives the length of time for which a campaign runs.
 | Variable        | Description                                                 |
 |------------------|-------------------------------------------------------------|
 | `HOUSEHOLD_KEY` | Uniquely identifies each household                           |
