@@ -12,7 +12,7 @@
     - [product](#product)
     - [hh_demographic](#hh_demographic)
     - [campaigns](#campaigns)
-- [Key Performance Indicators](#key_performance_indicators)
+- [Key Performance Indicators ((KPIs))](#key_performance_indicators)
 - [ETL Process Overview](#etl_process_overview)
 - [Data Cleaning and Transformation (SQL)](#data_cleaning_and_transformation_(sql))
 - [EDA (Python)](#eda_(python))
@@ -82,7 +82,7 @@ The campaigns table is the merge of the campaign_table and campaign_desc tables.
 | `END_DAY`    | End date of campaign                                 |
 
 
-## Key Performance Indicators
+## Key Performance Indicators (KPIs)
 | KPI                               | Definition                                                                 |
 |-----------------------------------|---------------------------------------------------------------------------|
 | **Sales Per Day (SPD)**               | The total of sales in a single day.                                       |
