@@ -25,7 +25,7 @@ Running campaigns can be a key strategy for stakeholders to achieve their goals.
 The datasets are obtained from [the Dunnhumby website (the complete Journey)](https://www.dunnhumby.com/source-files/), which is the first data science customer platform in the world. In this project, 4 tables are used, which are described as follows.
 
 ### transaction_data
-Transaction data shows all products purchased by households within the dataset. Each row is essentially the same line that would be found on a store receipt. It is worth mentioning that sales_value in this table is the amount of dollars received by the retailer on the sale of the specific product, not the actual price paid by the customer. Below is the description of all variables in this table.
+[Transaction data](https://github.com/javadho/campaigns-analysis/blob/main/datasets/transaction_data.csv) shows all products purchased by households within the dataset. Each row is essentially the same line that would be found on a store receipt. It is worth mentioning that sales_value in this table is the amount of dollars received by the retailer on the sale of the specific product, not the actual price paid by the customer. Below is the description of all variables in this table.
 | Variable             | Description                                                        |
 |----------------------|--------------------------------------------------------------------|
 | `household_key`      | Uniquely identifies each household                                 |
