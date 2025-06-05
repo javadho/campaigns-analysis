@@ -170,6 +170,8 @@ After downloading the CSV files for each table, they were imported into the data
 
 **What actions or decisions would this analysis support?**
 
--	Implement A/B testing or time-series comparisons for future campaigns to prove ROI.
--	Invest in stores that attract more unique households, indicating higher engagement or growth potential.
--	What were the main reasons for the success of the 3 best campaigns?
+➡️ Implement A/B testing or time-series comparisons for future campaigns to prove ROI.
+
+➡️ Invest in stores that attract more unique households, indicating higher engagement or growth potential.
+
+➡️ What were the main reasons for the success of the 3 best campaigns?
