@@ -160,8 +160,11 @@ After downloading the CSV files for each table, they were imported into the data
 ✅ While checking outliers for sales_value and quantity in the transactions_data table, it was found that most outliers belong to the KIOSK-GAS department. This explains the high UPB values in the KPI comparison table.
 
 ✅ From the total sales line in the visualization, it can be seen that campaigns have a positive impact on total sales. The KPI comparison confirms this by evaluating each KPI before and after the campaigns started.
+
 ✅ By reviewing the product visualization, it can be seen that GASOLINE-REG UNLEADED has the most impact on SPD and UPB both before and after the campaigns, while FLUID MILK WHITE has the most impact on HPD. However, for other KPIs, different products have a positive impact before and after campaigns started.
+
 ✅ The trend line in the second line chart shows that the average number of distinct households attracted to the stores is increasing.
+
 ✅ The ranking report shows that campaigns 23, 18, and 13 have significantly higher SPD and HPD than others, making them top-performing campaigns even though their other KPIs are not the strongest.
 
 
