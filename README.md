@@ -95,7 +95,7 @@ The campaigns table is the merge of [the campaign](https://github.com/javadho/ca
 ## ETL Process Overview
 After downloading CSV files for each table, they were added to the database in SQL Server to be cleaned and transformed. Then, to do Exploratory Data Analysis (EDA) in Python, a Jupyter notebook was connected to SQL Server using the sqlalchemy library. Then, for getting insights, data was imported to Power BI by loading it from the database in SQL Server.
 
-## Data Cleaning and Transformation (SQL)
+## Data Cleaning and Transformation ([SQL](https://github.com/javadho/campaigns-analysis/blob/main/dashboard_and_codes/campaigns_analysis_cleaning_and_transforming.sql))
 -	Remove unnecessary columns
 -	Changing data types
 -	Check missing values
