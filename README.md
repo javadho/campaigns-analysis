@@ -67,7 +67,7 @@ The datasets are obtained from [the Dunnhumby website (the complete Journey)](ht
 | `KID_CATEGORY_DESC`  |                                                                                                        |
 
 ### campaigns
-The campaigns table is the merge of [the campaign](https://github.com/javadho/campaigns-analysis/blob/main/datasets/raw/campaign_table.csv) and [the campaign description](https://github.com/javadho/campaigns-analysis/blob/main/datasets/campaign_desc.csv) tables. The campaign table lists the campaigns received by each household in the dataset. Each household may have received a different set of campaigns. The campaign description table gives the length of time for which a campaign runs.
+The campaigns table is the merge of [the campaign](https://github.com/javadho/campaigns-analysis/blob/main/datasets/raw/campaign_table.csv) and [the campaign description](https://github.com/javadho/campaigns-analysis/blob/main/datasets/raw/campaign_desc.csv) tables. The campaign table lists the campaigns received by each household in the dataset. Each household may have received a different set of campaigns. The campaign description table gives the length of time for which a campaign runs.
 | Variable        | Description                                                 |
 |------------------|-------------------------------------------------------------|
 | `HOUSEHOLD_KEY` | Uniquely identifies each household                           |
