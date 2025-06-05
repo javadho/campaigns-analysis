@@ -95,7 +95,7 @@ The campaigns table is the merge of [the campaign](https://github.com/javadho/ca
 ## ETL Process Overview
 After downloading CSV files for each table, they were added to the database in SQL Server to be cleaned and transformed. Then, to do Exploratory Data Analysis (EDA) in Python, a Jupyter notebook was connected to SQL Server using the sqlalchemy library. Then, for getting insights, data was imported to Power BI by loading it from the database in SQL Server.
 
-## Data Cleaning and Transformation (SQL)
+## Data Cleaning and Transformation ([SQL](https://github.com/javadho/campaigns-analysis/blob/main/dashboard_and_codes/campaigns_analysis_cleaning_and_transforming.sql))
 -	Remove unnecessary columns
 -	Changing data types
 -	Check missing values
@@ -109,14 +109,14 @@ After downloading CSV files for each table, they were added to the database in S
 -	Create KPIs
 -	Check the times of visit for each household per week
 
-## EDA (Python)
+## EDA ([Python](https://github.com/javadho/campaigns-analysis/blob/main/dashboard_and_codes/campaigns_analysis_EDA.ipynb))
 -	**Libraries:** sqlalchemy, pandas, numpy, seaborn, and matplotlib.
 -	Check num of rows and columns, data types, null values, summary, number of unique values, central tendencies of columns for each table.
 -	Check data distribution.
 -	Check outliers.
 -	Change the names of campaigns based on their order by time and upload the adjusted campaign table to SQL Server.
 
-## Visualizations (Power BI)
+## Visualizations ([Power BI](https://github.com/javadho/campaigns-analysis/blob/main/dashboard_and_codes/campaigns_analysis_dashboard.pbix))
 -	**Power Query:** Join the transaction_data and campaigns tables to see transactions that happened during campaigns.
 -	Creating a data model with a star schema.
 -	Change data properties wherever needed.
