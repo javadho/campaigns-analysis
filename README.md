@@ -2,7 +2,7 @@
 **Objective:** Compare KPIs before and after starting campaigns and the most successful campaigns. 
 
 
-**Tools used:** SQL (SQL Server Management Studio 2.0), Python (Jupyter Notebook), Power BI, Excel
+**Tools used:** T-SQL (SQL Server Management Studio 2.0), Python (Jupyter Notebook), Power BI, Excel
 
 ## Table of Contents
 
